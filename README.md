@@ -12,7 +12,7 @@
 ## III. Run debug
 - Cmd : `bin/standalone.[bat/sh] -- debug xxxx`. xxxx: debug port number.
 ### Debug in intellij
-- Open keycloak in Intelliji:
++ Open keycloak project in Intelliji:
 + Chose configuration:
 
 ![image](https://user-images.githubusercontent.com/58378623/209035565-d4ace4d6-f271-46f1-a68a-64646613bbf5.png)
@@ -39,3 +39,27 @@
 ![image](https://user-images.githubusercontent.com/58378623/209036923-a2078b5a-2662-48c8-8902-ffa1d7272c86.png)
 
 ### Debug in Eclipse
+
++ Open keycloak project in Eclipse:
+
++ Go to Run -> Debug Configurations:
+
+![image](https://user-images.githubusercontent.com/58378623/209044611-28f24036-7aa9-429f-b94c-7ba0dcb1c3cd.png)
+
++ Create a new Remote Java Application configuration:
+
+![image](https://user-images.githubusercontent.com/58378623/209044662-af48692a-a64b-42b0-9d73-0f0024ea0556.png)
+
++ Configure the remote application's details
+
+![image](https://user-images.githubusercontent.com/58378623/209044719-13a36132-0a4a-4ad8-bbef-bf90df0e3564.png)
+
++ Click debug button to start debug:
+
+![image](https://user-images.githubusercontent.com/58378623/209044808-5d63dcc3-e94b-424f-8d17-3f45187692d4.png)
+
++ Click Run -> Disconnect to stop debug:
+
+![image](https://user-images.githubusercontent.com/58378623/209045158-1a588f2d-af03-4d77-a58e-c4f9ddda1233.png)
+
+
