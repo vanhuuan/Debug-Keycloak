@@ -1,7 +1,7 @@
 # Debug-Keycloak
 
 ## I. Build Server Key-Cloak
-- Required: Java version < 11; Mvn version 3.3+
+- Required: Java version <= 11; Mvn version 3.3+
 - Checkout git repo: https://github.com/map4d/keycloak
 - Cd keycloak
 - Cmd: `mvn -Pdistribution -pl distribution/server-dist -am -Dmaven.test.skip clean install`
