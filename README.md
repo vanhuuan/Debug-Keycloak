@@ -12,6 +12,30 @@
 ## III. Run debug
 - Cmd : `bin/standalone.[bat/sh] -- debug xxxx`. xxxx: debug port number.
 ### Debug in intellij
-- Open keycloak in Intelliji
-- Chose configuration:
-[image](https://user-images.githubusercontent.com/58378623/209035565-d4ace4d6-f271-46f1-a68a-64646613bbf5.png)
+- Open keycloak in Intelliji:
++ Chose configuration:
+
+![image](https://user-images.githubusercontent.com/58378623/209035565-d4ace4d6-f271-46f1-a68a-64646613bbf5.png)
+
++ Click Add New Configuration:
+
+![image](https://user-images.githubusercontent.com/58378623/209036059-e0d9f87d-8c0c-416e-9346-4f2429e2c0df.png)
+
++ Select Remote JVM Debug:
+
+![image](https://user-images.githubusercontent.com/58378623/209036251-d16c275f-f167-4d26-aee7-07669b14b5bb.png)
+
++ Config setting ( Host: Server ip, port: debug port number )
+
+![image](https://user-images.githubusercontent.com/58378623/209036387-35427bf9-33b3-4d4a-a634-38c64dc08bbf.png)
+
++ Then click Apply and Save.
++ To run debug, select debugger and click debug button: 
+
+![image](https://user-images.githubusercontent.com/58378623/209036760-f23e7dbd-da57-4605-b201-72c8e921830b.png)
+
++ Click Stop button to stop debug, we can start debug again without restart server:
+
+![image](https://user-images.githubusercontent.com/58378623/209036923-a2078b5a-2662-48c8-8902-ffa1d7272c86.png)
+
+### Debug in Eclipse
