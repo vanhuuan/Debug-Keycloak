@@ -7,9 +7,9 @@
 - Cmd: `mvn -Pdistribution -pl distribution/server-dist -am -Dmaven.test.skip clean install`
 - Cmd: `tar xfz distribution/server-dist/target/keycloak-8.0.1.tar.gz`
 - Cd keycloak-8.0.1
-- Add 3 jars file in to folder: `keycloak-8.0.1\modules\system\layers\keycloak\org\keycloak\keycloak-services\main`
+- Add all jars file in to folder: `keycloak-8.0.1\modules\system\layers\keycloak\org\keycloak\keycloak-services\main`
 
-![image](https://user-images.githubusercontent.com/58378623/209045465-954a28f3-3cce-42a0-9cbb-028a8dd33448.png)
+![image](https://user-images.githubusercontent.com/58378623/210473496-501d3805-244b-4d16-bece-da9b4f1f2110.png)
 
 - Add folder `postgresql` in git repo to: `keycloak-8.0.1\modules\system\layers\keycloak\org`
 ## II. Run build
@@ -66,6 +66,4 @@
 + Click Run -> Disconnect to stop debug:
 
 ![image](https://user-images.githubusercontent.com/58378623/209045158-1a588f2d-af03-4d77-a58e-c4f9ddda1233.png)
-
-![image](https://user-images.githubusercontent.com/58378623/210473496-501d3805-244b-4d16-bece-da9b4f1f2110.png)
 
